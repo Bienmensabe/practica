@@ -1,0 +1,11 @@
+﻿  ConsoleApplication2.cpp
+c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(11): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(11): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(11): note: этот аргумент используется в качестве размера буфера
+c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(17): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(17): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(17): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+  c:\users\тамара\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\consoleapplication2.cpp(17): note: этот аргумент используется в качестве размера буфера
+  ConsoleApplication2.vcxproj -> c:\users\тамара\documents\visual studio 2015\Projects\ConsoleApplication2\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> c:\users\тамара\documents\visual studio 2015\Projects\ConsoleApplication2\Debug\ConsoleApplication2.pdb (Full PDB)
