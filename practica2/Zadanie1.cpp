@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <Windows.h>
 
 
 int main()
@@ -25,6 +26,7 @@ constant: float	g = 9.81, maxheigth = 118000; // g - gravitational constant
 			heigthtime = 0;
 
 		printf("t = %dc     h = %.1fm \n", time, heigthtime);
+		Sleep(1000);
 		time++;
 
 	}
