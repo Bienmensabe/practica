@@ -1,12 +1,10 @@
-
-
 #include "stdafx.h"
 
 
 int main()
 {
 	int time = 0;
-	float heigth, len;
+	float heigth, len, heigthtime; // heigthtime = heigth(time)
 constant: float	g = 9.81, maxheigth = 118000; // g - gravitational constant
 
 	printf("The bomb dropped! Input  heigth: ");
@@ -18,15 +16,15 @@ constant: float	g = 9.81, maxheigth = 118000; // g - gravitational constant
 		printf("Your heigth is invalid, enter it again: ");
 		scanf_s("%f", &heigth);
 	}
-
-	while (heigth > 0) {
+	heigthtime = heigth;
+	while (heigthtime > 0) {
 		len = (g * time * time) / 2;
-		heigth = heigth - len;
+		heigthtime = heigth - len;
 
-		if (heigth < 0)
-			heigth = 0;
+		if (heigthtime < 0)
+			heigthtime = 0;
 
-		printf("t = %dc     h = %.1fm \n", time, heigth);
+		printf("t = %dc     h = %.1fm \n", time, heigthtime);
 		time++;
 
 	}
@@ -40,4 +38,3 @@ constant: float	g = 9.81, maxheigth = 118000; // g - gravitational constant
 
 	return 0;
 }
-
