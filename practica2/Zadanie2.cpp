@@ -6,11 +6,11 @@
 
 int main()
 {
-	int randomnumber, usernumber, usernumber1 = 100, usernumber2 = 1;
+	int randomnumber, usernumber, usernumber1 = 100, usernumber2 = 1, i = 0;
 
 	srand(time(NULL));
 
-	randomnumber = 1 + rand() % 100;
+	randomnumber = rand() % 100 + 1;
 
 	printf("Guess number (0 - 100): ");
 	scanf_s("%d", &usernumber);
@@ -41,10 +41,10 @@ int main()
 			printf("More (%d - %d): ", usernumber2, usernumber1);
 			scanf_s("%d", &usernumber);
 		}
-		
+		i++;
 	}
 
-	printf("You're winner!!! Number = %d", randomnumber);
+	printf("You're winner!!! Number: %d Count of attempts: %d", randomnumber, i);
 
 	
 	getchar();
