@@ -8,9 +8,9 @@ int main()
 {
 	char str[70];
 	int len = 0;
-	int i, widht, height;
+	int i, j, widht, height;
 
-	
+
 	printf("Input a string: ");
 	scanf_s("%s", str, (unsigned)_countof(str));
 
@@ -33,17 +33,22 @@ int main()
 	}
 
 
+	for (j = 0; j < height / 2; j++) {
+		printf("\n");
+	}
 
 	for (i = 0; i < widht / 2 - len / 2; i++) {
 		printf(" ");
 	}
 
-	
+
 	printf("%s", str);
 
 
-	getchar();
-	getchar();
+	getchar(); getchar(); getchar();
+	getchar(); getchar(); getchar();
+	getchar(); getchar(); getchar();
+
 
 
 	return 0;
