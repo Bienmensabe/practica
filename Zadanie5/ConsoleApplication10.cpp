@@ -12,7 +12,7 @@ int main()
 
 
 	printf("Input a string: ");
-	scanf_s("%s", str, (unsigned)_countof(str));
+	scanf_s("%[^\n]s", str, (unsigned)_countof(str));
 
 
 	while (*(str + len) != '\0')
