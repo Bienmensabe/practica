@@ -6,7 +6,7 @@
 
 int main()
 {
-	int randomnumber, usernumber, usernumber1 = 100, usernumber2 = 1, i = 0;
+	int randomnumber, usernumber, usernumber1 = 100, usernumber2 = 1, i = 1;
 
 	srand(time(NULL));
 
@@ -15,7 +15,7 @@ int main()
 	printf("Guess number (0 - 100): ");
 	scanf_s("%d", &usernumber);
 
-	if (usernumber < 1 || usernumber > 100){
+	if (usernumber < 1 || usernumber > 100) {
 		rewind(stdin);
 		printf("Your number is out of range, enter it again: ");
 		scanf_s("%d", &usernumber);
@@ -34,7 +34,7 @@ int main()
 			rewind(stdin);
 			printf("Less (%d - %d): ", usernumber2, usernumber1);
 			scanf_s("%d", &usernumber);
-		} 
+		}
 		else {
 			usernumber2 = usernumber;
 			rewind(stdin);
@@ -46,7 +46,7 @@ int main()
 
 	printf("You're winner!!! Number: %d Count of attempts: %d", randomnumber, i);
 
-	
+
 	getchar();
 	getchar();
 
