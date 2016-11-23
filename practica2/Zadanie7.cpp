@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <stdio.h>
 #define n 256
 int main()
@@ -10,18 +9,18 @@ int main()
 	printf("Input string: ");
 	fgets(str, n, stdin);
 
-	for (int i = 0; str[i] != '\0'; i++){
+	for (int i = 0; str[i] != '\0'; i++)
+	{
 		char temp = str[i];
 		mass[temp]++;
-
 	}
 
-	for (tmp = 32; tmp < n; tmp++) {
+	for (tmp = 32; tmp < n; tmp++)
+	{
 		a = tmp;
 		if (mass[tmp] != 0)
 		printf("%c | %d \n", a, mass[tmp]);
 	}
-	
 
 	getchar();
 	getchar();
