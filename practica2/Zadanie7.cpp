@@ -15,11 +15,11 @@ int main()
 		mass[temp]++;
 	}
 
-	for (tmp = 32; tmp < n; tmp++)
+	for (; tmp < n; tmp++)
 	{
 		a = tmp;
 		if (mass[tmp] != 0)
-		printf("%c | %d \n", a, mass[tmp]);
+			printf("%c | %d \n", a, mass[tmp]);
 	}
 
 	getchar();
