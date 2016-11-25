@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define SIZE_STR 40
 
-
 int main()
 {
 	char str[SIZE_STR] = "";
@@ -17,7 +16,6 @@ int main()
 		if (*(str + count) != ' ')
 		{
 			letters++;
-
 			if ((*(str + count + 1) == ' ') || (*(str + count + 1) == '\0'))
 			{
 				if (max <= letters)
@@ -25,7 +23,6 @@ int main()
 					max = letters;
 					ind = count - max + 1;
 				}
-
 				letters = 0;
 			}
 		}
