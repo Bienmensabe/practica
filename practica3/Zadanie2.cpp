@@ -5,7 +5,6 @@
 int main()
 {
 	char str[SIZE_STR] = "";
-	int space = 0; //ignor space
 	int words = 0; //amount of words
 	int letters = 0; //amount of letters
 
