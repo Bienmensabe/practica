@@ -22,7 +22,7 @@ int main()
 			space = 0;
 	}
 
-	printf("%d", words);
+	printf("Amount of words: %d", words);
 
 	getchar();
 	getchar();
