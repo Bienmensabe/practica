@@ -7,10 +7,10 @@
 int pass()
 {
 	int randswitch;
-	int	i;
-	int	counta, countA, count0;
-	int	iter = 0; // iterations counter
-	char  str[SIZE_OF_STR];
+	int i;
+	int counta, countA, count0;
+	int iter = 0; // iterations counter
+	char str[SIZE_OF_STR];
 
 	while (true) {
 
