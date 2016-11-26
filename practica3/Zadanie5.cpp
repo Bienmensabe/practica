@@ -21,7 +21,7 @@ int main()
 			indmin = count;
 			num = 1;
 		}
-		else if (*(str + count) >= 0)
+		else if (str[count] >= 0)
 			indplus = count;
 	}
 
