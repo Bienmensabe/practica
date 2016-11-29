@@ -29,7 +29,7 @@ int main()
 	}
 	printf("The longest word: ");
 
-	for (int i = 0; i < ind; i++) {
+	for (int i = 0; i <= max; i++) {
 		printf("%c", str[ind + i]);
 	}
 
