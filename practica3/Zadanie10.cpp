@@ -38,7 +38,7 @@ int main()
 				{
 					for (; (letters + 1) > 0; letters--)
 					{
-						str[count + 1 - letters] = 8;
+						str[count + 1 - letters] = 7;
 					}
 				}
 				letters = 0;
